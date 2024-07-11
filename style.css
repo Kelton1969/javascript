@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul a {
+    margin: 0 3rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 0.3rem;
+}
+
+header {
+    height: 100vh;
+    background-image: url("https://th.bing.com/th/id/R.1a322d35b9d547e4d1847a0825fed918?rik=i3ybMlPKNlPGTg&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteudo {
+    min-height: 100vh;
+}
+
+.ajuste_de {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 20rem;
+    height: 20rem;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+    background: rgba(116, 112, 112, 0.46);
+    transition: background 0.3s ease-in-out;
+}
+
+.card img {
+    width: 15rem;
+}
+
+.card:hover {
+    background: #d42d03;
+}

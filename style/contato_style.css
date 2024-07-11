@@ -1,0 +1,28 @@
+
+
+.form{
+ 
+  width: 180vh;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(16, 154, 196);
+  color: white;
+  padding: 2rem;
+  
+  
+}.form input{
+ display: block;
+ width: 170vh;
+
+
+}.form textarea{
+    display: block;
+    
+}.form button{
+    width: 20%;
+    background: rgb(0, 255, 242);
+    border: none;
+    height: 3rem;
+    color: rgb(73, 36, 1);
+
+}
